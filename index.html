@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klinik Riset Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Klinik Riset Mahasiswa</h1>
+        <p>Forum konsultasi mingguan untuk membantu riset mahasiswa</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="#consultation">Forum Konsultasi</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Selamat Datang di Klinik Riset Mahasiswa</h2>
+        <p>Kami menyediakan konsultasi riset untuk mahasiswa yang mengalami kesulitan. Konsultasi dilakukan setiap minggu melalui forum ini.</p>
+    </section>
+
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Klinik Riset Mahasiswa adalah tempat dimana mahasiswa bisa mendapatkan bimbingan riset secara gratis dari para ahli. Kami siap membantu menjawab pertanyaan-pertanyaan riset Anda.</p>
+    </section>
+
+    <section id="consultation">
+        <h2>Forum Konsultasi</h2>
+        <form id="questionForm">
+            <label for="name">Nama:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="question">Pertanyaan:</label><br>
+            <textarea id="question" name="question" rows="5" required></textarea><br><br>
+
+            <button type="submit">Kirim Pertanyaan</button>
+        </form>
+
+        <div id="questionsList">
+            <h3>Daftar Pertanyaan:</h3>
+            <!-- Pertanyaan akan muncul di sini -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Email: klinikriset@univ.edu</p>
+        <p>Telepon: +62 123 4567</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Klinik Riset Mahasiswa</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
